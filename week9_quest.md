@@ -1,17 +1,17 @@
 # Pandas
 
-### 데이터 분석이란?
+### 1. 데이터 분석이란?
 
 인사이트를 도출하기 위해 알고리즘과 수학적 처리과정을 적용하여 해당 정보에 대한 결론을 도출하고 패턴을 찾기 위한 목적으로 데이터를 다루는 과학
 
-### 데이터 분석 과정
+### 2. 데이터 분석 과정
 
 1. Exploratory Data Analysis : 문제 정의, 시각화 & 변수 탐색, 결측치 및 이상치 탐
 2. Data Preprocessing : 적절한 데이터 처리, 정규화, 교차검증 설정
 3. Feature Engineering : 변수 생성, 자원 축소, 특징 추출
 4. Modeling : 예측 모델링, 분류 모델링, 결과 해석
 
-### Pandas 기초
+### 3. Pandas 기초
 
 **Series**
 
@@ -28,17 +28,17 @@
 
 # Preprocessing
 
-### Data Preprocessing
+### 1. Data Preprocessing
 
 바로 분석이 불가능할 정도로 지저분한 데이터셋을 분석이 가능한 상태로 만드는 것
 
-### 데이터 내용 확인하기
+### 2. 데이터 내용 확인하기
 
 - DataFrame.head() or DataFrame.tail() : 데이터의 일부분 확인
 - DataFrame.info() : 데이터의 요약정보 확인
 - DataFrame.describe(include='all') : 데이터의 기술통계 확인
 
-### 결측치 처리 방법의 종류
+### 3. 결측치 처리 방법의 종류
 
 - 삭제 : 간편하나 데이터의 수가 적어짐
 - 대체 : 다른 관측자들의 평균값, 최빈값, 중간값, 인근값 등으로 대체하는 것
@@ -48,11 +48,11 @@
 
 # Visualization
 
-### EDA (Exploratory Data Analysis)
+### 1. EDA (Exploratory Data Analysis)
 
 주어진 데이터 셋을 통해 탐색적으로 충분한 정보를 찾는 분석 방법 by 시각화, 상관성 분석
 
-### 그래프 종류
+### 2. 그래프 종류
 
 **Bar**
 
@@ -68,7 +68,7 @@
 
 - 원 그래프 : 전체에 대한 각 항목의 비율을 원모양으로 나타낸 그래프
 
-### 상관성 분석
+### 3. 상관성 분석
 
 양적인 두 변수 간의 관계가 얼마나 유의한지 분석하는 것으로, 상관 분석을 통해서 변수들의 관계를 규명하고 가설 설정에 도움을 줄 수 있음. 이렇게 구한 상관 분석의 양적 결과를 피어슨 상관계수(Pearson's correlation coefficient)라고 함.
 
